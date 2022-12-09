@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 4, 4);
+
+}
+
+
+.header {
+    background-color: rgb(48, 36, 53);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.BillPreston {
+    display: flex;
+}
+
+.heder_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.BillPreston {
+    background-color: rgb(48, 36, 53);
+    color: antiquewhite;
+}
+
+.img {
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 10px;
+
+}
+
+h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+h2,
+p {
+    padding: 0;
+    margin: 10px;
+}
+
+
+.Objective {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+.lorem {
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.cnopka {
+
+    background-color: rgb(48, 36, 53);
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+}
+
+.form {
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(224, 207, 207);
+}
+
+
+
+.form-h1 {
+    padding-top: 50px;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.form_input {
+    display: inline-block;
+}
+
+.textarea,
+.input {
+    margin: 10px;
+    background-color: rgb(224, 207, 207);
+    border: none;
+    border-bottom: solid 1.5px black;
+    width: 200px;
+}
+
+.textarea {
+
+    resize: none;
+    width: 500px;
+    height: 30px;
+}
+
+.background {
+    background-color: rgb(224, 207, 207);
+}
+
+.Experience {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.Experience_wrapper {
+    display: flex;
+}
+
+.text {
+    padding-right: 90px;
+
+}
+
+.content {
+    padding-left: 200px;
+}
+
+.Skills {
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.Contacts {
+    background-color: rgb(48, 36, 53);
+    color: antiquewhite;
+    padding-top: 60px;
+
+}
+
+.Contacts2 {
+
+    text-align: center;
+}
+
+.ul-Contacts {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.language {
+    padding-bottom: 90px;
+    padding-top: 50px;
+}
+
+.language-title {
+    padding-bottom: 25px;
+}
+
+.language-li {
+    list-style-type: square;
+
+}
+
+.language-li {
+    color: rgb(224, 207, 207);
+}
+
+li span {
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.reserved {
+    text-align: center;
+    color: rgb(80, 72, 82);
+    padding-top: 30px;
+}
